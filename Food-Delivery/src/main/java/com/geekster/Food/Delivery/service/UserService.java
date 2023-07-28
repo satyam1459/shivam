@@ -6,6 +6,7 @@ import com.geekster.Food.Delivery.dto.SignUpOutput;
 import com.geekster.Food.Delivery.model.AuthToken;
 import com.geekster.Food.Delivery.model.User;
 import com.geekster.Food.Delivery.repository.IUserRepo;
+import jakarta.xml.bind.DatatypeConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
